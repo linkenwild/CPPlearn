@@ -24,7 +24,6 @@ public:
 	
 	static int getCount(void)
 	{
-		
 		return count;
 	}
 };
