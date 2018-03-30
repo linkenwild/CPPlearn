@@ -1,5 +1,5 @@
 #includes <iostream>
-
+using namespace std;
 class A 
 {
 private:
@@ -56,12 +56,12 @@ int main()
 	// C c2(); there is  no C()in class C
 	C c3(2);
 	// D d1(3);
-	D* dp;
+	//D* dp;
 	//E e1;
 	F f1;
 	G g1;
 	//H h1;
-	J j1;
+	//J j1;
 	//J j2= j1;
 }
 	
