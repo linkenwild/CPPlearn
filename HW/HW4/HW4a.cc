@@ -42,9 +42,9 @@ public:
 		return sum;
 	}
 	
-	friend double dot(const Vec3d& a, const Vec3d& b);
+	friend double dot(const Vec3d a, const Vec3d b);
 	
-	static double dot(const Vec3d& a, const Vec3d& b)
+	static double dot(const Vec3d a, const Vec3d b)
 	{
 		return (a.x*b.x+a.y*b.y+a.z*b.z);
 	}
@@ -74,7 +74,7 @@ public:
 
 };
 
-double dot(const Vec3d& a, const Vec3d& b) 
+double dot(const Vec3d a, const Vec3d b) 
 {
 	return a.x*b.x+a.y*b.y+a.z*b.z;
 }
