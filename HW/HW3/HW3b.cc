@@ -27,7 +27,7 @@ public:
 		return Complex(-a.real, -a.imag);
 	}
 	
-	friend ostream operator << ( ostream& os, const Complex& a)
+	friend ostream& operator << ( ostream& os, const Complex& a)
 	{
 		os << '(' << a.real <<',' << a.imag << ')';
 		return os;
