@@ -34,5 +34,9 @@ int main()
 	B b1;
 	b1.g(); //illegal, g is private
 	b1.f(); // is protected in A
+	
+	A*p = new B();
+	p->g();
+}
 }
 
