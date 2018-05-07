@@ -54,6 +54,7 @@ int main()
 	
 	Vector<double> a2 = a;
 	Stack<4096> s;
+}
 
 
 
